@@ -1,16 +1,25 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Rob Meijer">
+
+        <title>{% block title %}Welcome!{% endblock %} - robmeijer.dev</title>
+
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
     </head>
-    <body>
+    <body class="text-center">
         {% block body %}{% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
+    </body>
+
+    <body class="text-center">
+
     </body>
 </html>

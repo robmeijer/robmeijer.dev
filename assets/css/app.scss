@@ -3,4 +3,7 @@
 @import '~bootstrap';
 @import '~font-awesome';
 
-@import './pages/default_index';
+@import './layout/base';
+@import './layout/header';
+@import './components/cover';
+@import './layout/footer';
