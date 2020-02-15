@@ -6,9 +6,12 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import '../css/app.css';
+import '../css/app.scss';
+import getNiceMessage from './get_nice_message';
+import $ from 'jquery';
+import 'bootstrap';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
 
-console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+console.log(getNiceMessage(10));
