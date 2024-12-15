@@ -13,3 +13,4 @@ jobs:
         needs:
             - code_quality
         uses: ./.github/workflows/deploy-prod.yaml
+        secrets: inherit
