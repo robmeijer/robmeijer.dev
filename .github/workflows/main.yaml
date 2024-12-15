@@ -8,3 +8,6 @@ jobs:
     code_quality:
         name: 'Code Quality'
         uses: ./.github/workflows/code-quality.yaml
+    deploy_prod:
+        name: 'Deploy'
+        uses: ./.github/workflows/deploy-prod.yaml
