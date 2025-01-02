@@ -18,13 +18,13 @@
         "symfony/twig-bundle": "7.2.*",
         "symfony/yaml": "7.2.*",
         "symfonycasts/sass-bundle": "^0.8.2",
-        "twig/extra-bundle": "^2.12|^3.17",
-        "twig/twig": "^2.12|^3.17.1"
+        "twig/extra-bundle": "^2.12|^3.18",
+        "twig/twig": "^2.12|^3.18.0"
     },
     "require-dev": {
-        "php-cs-fixer/shim": "^3.65",
-        "phpstan/phpstan": "^2.0.3",
-        "phpstan/phpstan-deprecation-rules": "^2.0",
+        "php-cs-fixer/shim": "^3.66",
+        "phpstan/phpstan": "^2.1.0",
+        "phpstan/phpstan-deprecation-rules": "^2.0.1",
         "phpstan/phpstan-symfony": "^2.0",
         "roave/security-advisories": "dev-latest",
         "symfony/debug-bundle": "7.2.*",
