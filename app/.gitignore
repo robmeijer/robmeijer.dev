@@ -14,6 +14,10 @@
 /assets/vendor/
 ###< symfony/asset-mapper ###
 
+###> symfonycasts/sass-bundle ###
+/public/assets/
+###< symfonycasts/sass-bundle ###
+
 ###> php-cs-fixer/shim ###
 /.php-cs-fixer.php
 /.php-cs-fixer.cache
